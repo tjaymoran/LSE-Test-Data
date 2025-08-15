@@ -1,0 +1,113 @@
+body {
+    /* Some styles from Nucleus UI. */
+    background-color: #F8F9FA;
+    color: rgba(0, 0, 0, 0.870588);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    /* Columns with even heights. */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden
+}
+
+/* main {
+    flex: 1;
+    text-align: center;
+} */
+
+no-border {
+    border: 0px solid #ffffff;
+}
+
+.main-controls {
+    float: left;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.zoom-controls {
+    float: right;
+}
+
+#biomatters-sequence-viewer {
+    flex: 2;
+    background: #F8F9FA;
+    /* background: #FF0000; */
+    color: black;
+    height: 90vh;
+
+    /* Browsers won't resize children without this if parent is sized using flex; @see SV-276 */
+    display: flex;
+    flex-direction: column;
+}
+
+/* WB Additions */
+#errorCurtain {
+    background-color:#2f2f2f;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    z-index: 999;
+    display:none;
+    text-align: center;
+    
+}
+
+.errorText{
+    color: #e04542;
+    padding-top: 40vh;
+    margin: auto;
+}
+
+#frameSelect{
+    display: none;
+}
+
+#search-bar{
+    /* min-width: 45vw; */
+    /* max-width: 100vw; */
+    width: 95%;
+}
+
+.btn-icon{
+        color: var(--info-accent);
+}
+
+.btn-group{
+    margin-left: 0.8rem;
+}
+
+.btn-group .btn {
+    margin-left: 0px;
+}
+
+.btn-group button {
+    margin: 0px -4px 0px 0px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.btn-group button:first-child {
+    border-radius: 3px 0px 0px 3px;
+    /* Prevent double borders */
+}
+
+.btn-group button:last-child {
+    border-radius: 0px 3px 3px 0px;
+    /* Prevent double borders */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
