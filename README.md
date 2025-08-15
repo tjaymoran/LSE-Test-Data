@@ -5,6 +5,6 @@ For standard Monoclonal Ab discovery workflow download Good backbones (2).geneio
 
 For standard MsAB discovery worklfow download Good backbones (2).geneious and pairable_antibody_fasta.fasta and vhh_fasta.fasta
 
-For scFV discovery workflows download human_scfv_fasta.fasta.txt
+For scFv discovery workflows download scFv_vh_vl.fasta.txt and download Good backbones (2).geneious ? can we use these for scfv need to research
 
 FOr Mutein discovery workflows download 1,001 IL21 Mutein Sequences (1).geneious
